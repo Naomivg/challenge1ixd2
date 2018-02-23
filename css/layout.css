@@ -13,6 +13,11 @@
 	width: 30px;
 }
 
+img{
+	margin-left: auto;
+	margin-right: auto;
+}
+
 h2{
 	margin-top: 50px;
 }
@@ -75,6 +80,13 @@ main > div > div{
 	margin-left: 30px;
 }
 
+.fuel-container {
+	width: 80%;
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 
 /*TABLET*/
 @media only screen and (min-width: 768px) and (max-width: 959px){
@@ -91,6 +103,11 @@ main > div > div{
 	.settings{
 		height: 30px;
 		width: 30px;
+	}
+
+	img{
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	.total{
@@ -169,6 +186,13 @@ main > div > div{
 	.text{
 		margin-left: 30px;
 	}
+
+	.fuel-container {
+	width: 80%;
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
 } 
 
 
@@ -183,6 +207,11 @@ main > div > div{
 		width: 310px;
 		margin-right: 50px;
 	}
+
+	img{
+	margin-left: auto;
+	margin-right: auto;
+}
 
 	.total{
 		display: flex;
@@ -217,6 +246,13 @@ main > div > div{
 	.text{
 		margin-left: 30px;
 	}
+
+	.fuel-container {
+	width: 80%;
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
 	
 } 
 
@@ -228,6 +264,11 @@ main > div > div{
 		flex-direction: row;
 	}
 
+	img{
+	margin-left: auto;
+	margin-right: auto;
+}
+
 	p{
 		font-size: 25px;
 	}
@@ -236,6 +277,13 @@ main > div > div{
 		height: 200px;
 		width: 310px;
 		margin-right: 50px;
+	}
+
+	.fuel-container {
+		width: 80%;
+		max-width: 800px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 } 
 
