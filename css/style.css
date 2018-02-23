@@ -1,0 +1,50 @@
+@import url('layout.css');
+/*PHONE*/
+*{
+	font-family: "Mashine";
+	margin: 0px;
+}
+
+body{
+	background-color: #2B2960;
+	color: white;
+}
+
+header{
+	background-color: black;
+}
+
+h2{
+	font-size: 20px;
+}
+
+.globalinfo{
+	background-color: #726DFF;
+}
+
+.bread{
+	background-color: #74FFF2;
+}
+
+.vegetables{
+	background-color: #84ED6E;
+}
+
+.meat{
+	background-color: #EF5F26;
+}
+/*TABLET*/
+/*@media only screen and (min-width: 600px) and (max-width: 959px){
+
+} */
+
+
+/*DESKTOP*/
+/*@media only screen and (min-width: 600px) and (max-width: 959px){
+
+} */
+
+/*GROOT DESKTOP*/
+/*@media only screen and (min-width: 600px) and (max-width: 959px){
+
+} */

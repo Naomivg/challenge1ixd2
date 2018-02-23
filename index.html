@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.bundle.min.js">
+</script>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header>
+		<img src="images/logo.png" class="spaceX">
+		<img src="images/search.png" class="search">
+		<img src="images/settings.png" class="settings">
+	</header>
+	<main>
+		<!--Algemene informatie-->
+		<h2 class="flex">Now</h2>
+		<div class="total">
+			<!--fuel-->
+			<div class="globalinfo">
+			<img src="images/gasstation.png">
+			<p>54000 m3 per hour</p>
+			</div>
+			<!--eten-->
+			<div class="globalinfo">
+			<img src="images/cutlery.png">
+			<p>3100 pieces left</p>
+			</div>
+			<!--distance-->
+			<div class="globalinfo">
+			<img src="images/distance.png">
+			<p>35000 km per hour</p>
+			</div>
+		</div>
+		<!--Fuel-->
+		<h2 class="flex">Fuel</h2>
+		<div>		
+			<canvas id= "fuelChart"></canvas>
+		</div>
+		<h2 class="flex">Used today</h2>
+		<div>
+			<canvas id= "usageFuelChart"></canvas>
+		</div>
+		<!--food information-->
+		<h2 class="flex">food</h2>
+		<div class="information">
+			<div class="bread">
+				<p class="text">Bread</p>
+			</div>
+			<div class="vegetables">
+				<p class="text">Vegetables</p>
+			</div>
+			<div class="meat">
+				<p class="text">Meat</p>
+			</div>
+		</div>
+		<!--food charts-->
+		<div id="food">
+		<canvas id= "breadChart"></canvas>
+		<canvas id= "vegetablesChart"></canvas>
+		<canvas id= "meatChart"></canvas>
+		<canvas id= "usageFoodChart"></canvas>
+		</div>
+		<!--distance and time-->
+		<div>
+			<h2 class="flex">Distance and time</h2>
+			<canvas id="distanceChart"></canvas>
+			<h2 class="flex">Travelled distance</h2>
+			<canvas id="travelledChart"></canvas>
+		</div>
+		<script type="text/javascript" src= "scripts/charts.js" ></script>
+	</main>
+	
+</body>
+</html>
