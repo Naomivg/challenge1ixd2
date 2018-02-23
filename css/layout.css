@@ -1,16 +1,25 @@
+header{
+	display: flex;
+}
+
 .spaceX{
 	height: 37px;
 	width: 300px;
+	display: flex;
+	align-items: flex-start;
 }
 
 .search{
 	height: 30px;
 	width: 30px;
+	display: flex;
 }
 
 .settings{
 	height: 30px;
 	width: 30px;
+	display: flex;
+	
 }
 
 img{
@@ -86,6 +95,22 @@ main > div > div{
 	margin-left: auto;
 	margin-right: auto;
 }
+
+.food-container {
+	width: 80%;
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.usage-container {
+		width: 80%;
+		max-width: 800px;
+		margin-left: auto;
+		margin-right: auto;
+	}
 
 .move{
 	margin-left: auto;
@@ -200,6 +225,22 @@ main > div > div{
 		margin-right: auto;
 	}
 
+	.food-container {
+		width: 80%;
+		max-width: 800px;
+		margin-left: auto;
+		margin-right: auto;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.usage-container {
+		width: 80%;
+		max-width: 800px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
 	.move{
 		margin-left: auto;
 		margin-right: auto;
@@ -222,9 +263,9 @@ main > div > div{
 	}
 
 	img{
-	margin-left: auto;
-	margin-right: auto;
-}
+		margin-left: auto;
+		margin-right: auto;
+	}
 
 	.total{
 		display: flex;
@@ -266,6 +307,24 @@ main > div > div{
 		margin-left: auto;
 		margin-right: auto;
 	}
+
+	.food-container {
+		width: 80%;
+		max-width: 400px;
+		margin-left: auto;
+		margin-right: auto;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	.usage-container {
+		width: 80%;
+		max-width: 800px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
 	.move{
 		margin-left: auto;
 		margin-right: auto;
@@ -299,6 +358,23 @@ main > div > div{
 	}
 
 	.fuel-container {
+		width: 80%;
+		max-width: 800px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.food-container {
+		width: 80%;
+		max-width: 400px;
+		margin-left: auto;
+		margin-right: auto;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	.usage-container {
 		width: 80%;
 		max-width: 800px;
 		margin-left: auto;
