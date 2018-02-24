@@ -36,10 +36,6 @@ h2{
 	margin-top: 50px;
 }
 
-p{
-	font-size: 15px;
-}
-
 .flex{
 	display: flex;
 	justify-content: center;
@@ -120,8 +116,22 @@ p{
 .move{
 	margin-left: auto;
 	margin-right: auto;
-	font-size: 15px;
 	margin-top: 20px;
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 5px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: white; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 5px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
 }
 
 /*TABLET*/
@@ -155,10 +165,6 @@ p{
 	h2{
 		margin-top: 50px;
 	}
-
-	p{
-		font-size: 15px;
-	} 
 
 	main > div > div{
 		height: 150px;
@@ -249,7 +255,6 @@ p{
 	.move{
 		margin-left: auto;
 		margin-right: auto;
-		font-size: 15px;
 		margin-top: 20px;
 	}
 } 
@@ -257,10 +262,6 @@ p{
 
 /*DESKTOP*/
 @media only screen and (min-width: 1250px) and (max-width: 1950px){
-	p{
-		font-size: 20px;
-	}
-
 	main > div > div{
 		height: 200px;
 		width: 310px;
@@ -333,7 +334,6 @@ p{
 	.move{
 		margin-left: auto;
 		margin-right: auto;
-		font-size: 15px;
 		margin-top: 20px;
 	}
 	
@@ -351,10 +351,6 @@ p{
 	margin-left: auto;
 	margin-right: auto;
 }
-
-	p{
-		font-size: 25px;
-	}
 
 	main > div > div{
 		height: 200px;
@@ -389,7 +385,6 @@ p{
 	.move{
 		margin-left: auto;
 		margin-right: auto;
-		font-size: 15px;
 		margin-top: 20px;
 	}
 } 
