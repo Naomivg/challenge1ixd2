@@ -65,7 +65,8 @@ var breakfastChart = new Chart(ctx, {
     },
 
     // Configuration options go here
-    options: {}
+    options: {
+    }
 });
 
 //VEGGIES
@@ -142,9 +143,7 @@ var usedFoodChart = new Chart(ctx, {
                 left: 50,
                 right: 0,
             }
-        }
-        
-        
+        }   
     },
 })
 
