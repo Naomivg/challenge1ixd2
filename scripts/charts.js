@@ -100,7 +100,7 @@ var breakfastChart = new Chart(ctx, {
     data: {
         datasets: [{
             label: ['Left', 'Used'],
-            data: [3000, 1000],
+            data: [70000, 7250],
             backgroundColor: ['#74FFF2', '#37CCB6' ],
             borderWidth: 0,
         }],
@@ -110,7 +110,7 @@ var breakfastChart = new Chart(ctx, {
     options: {
         elements: {
           center: {
-          text: '3000 pieces left',
+          text: '70000 pieces',
           color: '#ffffff', //Default black
           fontStyle: 'Mashine', //Default Arial
           sidePadding: 20 //Default 20 (as a percentage)
@@ -128,8 +128,8 @@ var veggiesChart = new Chart(ctx, {
     // The data for our dataset
     data: {
         datasets: [{
-            label: "Food",
-            data: [1500, 1000],
+            label: ["left", "Used"],
+            data: [64000, 13500],
             backgroundColor: ['#84ED6E', '#52B53A'],
             borderWidth: 0,
         }]
@@ -139,7 +139,7 @@ var veggiesChart = new Chart(ctx, {
     options: {
         elements: {
           center: {
-          text: '3000 pieces left',
+          text: '64000 pieces',
           color: '#ffffff', //Default black
           fontStyle: 'Mashine', //Default Arial
           sidePadding: 20 //Default 20 (as a percentage)
@@ -167,13 +167,13 @@ var animalchart = new Chart(ctx, {
     // Configuration options go here
     options: {
         elements: {
-          center: {
-          text: '3000 pieces left',
-          color: '#ffffff', //Default black
-          fontStyle: 'Mashine', //Default Arial
-          sidePadding: 20 //Default 20 (as a percentage)
+            center: {
+            text: '3000 pieces left',
+            color: '#ffffff', //Default black
+            fontStyle: 'Mashine', //Default Arial
+            sidePadding: 20 //Default 20 (as a percentage)
+            }
         }
-    }
     }
 });
 
