@@ -209,7 +209,7 @@ var usedFoodChart = new Chart(ctx, {
                 left: 50,
                 right: 0,
             }
-        }   
+        }
     },
 })
 

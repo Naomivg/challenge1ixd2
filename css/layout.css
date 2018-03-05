@@ -5,25 +5,27 @@
 
 header{
 	display: flex;
+	height: 45px;
 }
 
 .spaceX{
 	height: 37px;
 	width: 300px;
-	display: flex;
-	align-items: flex-start;
+	margin-left: 5px;
 }
 
 .search{
 	height: 30px;
 	width: 30px;
 	display: flex;
+	margin-top: 10px;
 }
 
 .settings{
 	height: 30px;
 	width: 30px;
 	display: flex;
+	margin-top: 10px;
 	
 }
 
@@ -283,6 +285,33 @@ h2{
 
 /*DESKTOP*/
 @media only screen and (min-width: 1250px) and (max-width: 1950px){
+	header{
+	display: flex;
+	height: 45px;
+	}
+
+	.spaceX{
+		height: 37px;
+		width: 300px;
+		margin-left: 0;
+	}
+
+	.search{
+		height: 30px;
+		width: 30px;
+		margin-left: 0;
+		margin-right: 20px;
+		margin-top: 10px;
+	}
+
+	.settings{
+		height: 30px;
+		width: 30px;
+		margin-left: 0;
+		margin-right: 20px;
+		margin-top: 10px;
+	}
+
 	main > div > div{
 		height: 200px;
 		width: 310px;
@@ -384,6 +413,33 @@ h2{
 
 /*GROOT DESKTOP*/
 @media only screen and (min-width: 1950px) {
+	header{
+	display: flex;
+	height: 45px;
+	}
+
+	.spaceX{
+		height: 37px;
+		width: 300px;
+		margin-left: 0;
+	}
+
+	.search{
+		height: 30px;
+		width: 30px;
+		margin-left: 0;
+		margin-right: 20px;
+		margin-top: 10px;
+	}
+
+	.settings{
+		height: 30px;
+		width: 30px;
+		margin-left: 0;
+		margin-right: 20px;
+		margin-top: 10px;
+	}
+	
 	.total{
 		display: flex;
 		justify-content: center;
