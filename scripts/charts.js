@@ -168,7 +168,7 @@ var animalchart = new Chart(ctx, {
     options: {
         elements: {
             center: {
-            text: '3000 pieces left',
+            text: '3000 pieces',
             color: '#ffffff', //Default black
             fontStyle: 'Mashine', //Default Arial
             sidePadding: 20 //Default 20 (as a percentage)

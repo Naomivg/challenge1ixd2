@@ -1,8 +1,4 @@
-.button{
-	height: 30px;
-	width: 30px;
-}
-
+/*header*/
 header{
 	display: flex;
 	height: 45px;
@@ -29,6 +25,7 @@ header{
 	
 }
 
+/*total*/
 img{
 	margin-left: auto;
 	margin-right: auto;
@@ -36,11 +33,6 @@ img{
 
 h2{
 	margin-top: 50px;
-}
-
-.flex{
-	display: flex;
-	justify-content: center;
 }
 
 .total > div >img{
@@ -54,7 +46,6 @@ h2{
 	flex-direction: column;
 }
 
-
 .globalinfo{
 	height: 150px;
 	width: 230px;
@@ -64,6 +55,25 @@ h2{
 	margin-top: 20px;
 }
 
+.move{
+		display: flex;
+		justify-content: center;
+		margin-top: 10px;
+}
+
+/*fuel*/
+.flex{
+	display: flex;
+	justify-content: center;
+}
+.fuel-container {
+	width: 80%;
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*food*/
 .information{
 	display: flex;
 	flex-direction: column;
@@ -96,13 +106,6 @@ h2{
 	margin-left: 30px;
 }
 
-.fuel-container {
-	width: 80%;
-	max-width: 800px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
 .food-container {
 	width: 80%;
 	max-width: 800px;
@@ -119,29 +122,30 @@ h2{
 		margin-right: auto;
 	}
 
-.move{
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 20px;
+/*button*/
+.button{
+	height: 30px;
+	width: 30px;
 }
 
 #myBtn {
-    display: none; /* Hidden by default */
-    position: fixed; /* Fixed/sticky position */
-    bottom: 20px; /* Place the button at the bottom of the page */
-    right: 5px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
-    background-color: white; /* Set a background color */
-    color: white; /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 5px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 5px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: white; 
+    color: white; 
+    cursor: pointer; 
+    padding: 5px; 
+    border-radius: 10px; 
 }
 
 /*TABLET*/
 @media only screen and (min-width: 768px) and (max-width: 959px){
+	/*header*/
 	.spaceX{
 		height: 37px;
 		width: 300px;
@@ -157,9 +161,13 @@ h2{
 		width: 30px;
 	}
 
+	/*totals*/
 	img{
 		margin-left: auto;
 		margin-right: auto;
+	}
+	h2{
+			margin-top: 50px;
 	}
 
 	.total{
@@ -167,12 +175,12 @@ h2{
 		align-items: center;
 		flex-direction: column;
 	}
-
-	h2{
-		margin-top: 50px;
+	.total > div >img{
+			height: 100px;
+			width: 100px;
 	}
 
-	main > div > div{
+	.globalinfo{
 		height: 150px;
 		width: 230px;
 		display: flex;
@@ -181,32 +189,26 @@ h2{
 		margin-top: 20px;
 	}
 
+	.move{
+		display: flex;
+		justify-content: center;
+		margin-top: 10px;
+	}
+
+	/*fuel*/
 	.flex{
 		display: flex;
 		justify-content: center;
 	}
 	
-	.total > div >img{
-		height: 100px;
-		width: 100px;
+	.fuel-container {
+		width: 80%;
+		max-width: 800px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
-	.total{
-		display: flex;
-		align-items: center;
-		flex-direction: column;
-	}
-
-
-	main > div > div{
-		height: 150px;
-		width: 230px;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		margin-top: 20px;
-	}
-
+	/*food*/	
 	.information{
 		display: flex;
 		flex-direction: column;
@@ -236,14 +238,7 @@ h2{
 	.text{
 		margin-left: 30px;
 	}
-
-	.fuel-container {
-		width: 80%;
-		max-width: 800px;
-		margin-left: auto;
-		margin-right: auto;
-	}
-
+	
 	.food-container {
 		width: 80%;
 		max-width: 800px;
@@ -260,34 +255,35 @@ h2{
 		margin-right: auto;
 	}
 
-	.move{
-		margin-left: auto;
-		margin-right: auto;
-		margin-top: 20px;
+	/*button*/
+	.button{
+		height: 30px;
+		width: 30px;
 	}
 
 	#myBtn {
-	    display: none; /* Hidden by default */
-	    position: fixed; /* Fixed/sticky position */
-	    bottom: 20px; /* Place the button at the bottom of the page */
-	    right: 5px; /* Place the button 30px from the right */
-	    z-index: 99; /* Make sure it does not overlap */
-	    border: none; /* Remove borders */
-	    outline: none; /* Remove outline */
-	    background-color: white; /* Set a background color */
-	    color: white; /* Text color */
-	    cursor: pointer; /* Add a mouse pointer on hover */
-	    padding: 5px; /* Some padding */
-	    border-radius: 10px; /* Rounded corners */
+	    display: none; 
+	    position: fixed; 
+	    bottom: 20px; 
+	    right: 5px; 
+	    z-index: 99; 
+	    border: none; 
+	    outline: none; 
+	    background-color: white; 
+	    color: white; 
+	    cursor: pointer; 
+	    padding: 5px; 
+	    border-radius: 10px; 
 	}
 } 
 
 
 /*DESKTOP*/
 @media only screen and (min-width: 1250px) and (max-width: 1950px){
+	/*header*/
 	header{
-	display: flex;
-	height: 45px;
+		display: flex;
+		height: 45px;
 	}
 
 	.spaceX{
@@ -312,12 +308,7 @@ h2{
 		margin-top: 10px;
 	}
 
-	main > div > div{
-		height: 200px;
-		width: 310px;
-		margin-right: 50px;
-	}
-
+	/*totals*/
 	img{
 		margin-left: auto;
 		margin-right: auto;
@@ -329,9 +320,34 @@ h2{
 		flex-direction: row;
 	}
 
-	.information{
+	.globalinfo{
+		height: 200px;
+		width: 310px;
+		margin-right: 50px;
 		display: flex;
 		flex-direction: column;
+		justify-content: center;
+		margin-top: 20px;
+	}
+
+	.move{
+		display: flex;
+		justify-content: center;
+		margin-top: 10px;
+	}
+
+	/*fuel*/
+	.fuel-container {
+			width: 80%;
+			max-width: 800px;
+			margin-left: auto;
+			margin-right: auto;
+	}
+
+	/*food*/
+	.information{
+		display: flex;
+		flex-direction: row;
 		align-items: center;
 	}
 
@@ -359,16 +375,11 @@ h2{
 		margin-left: 30px;
 	}
 
-	.fuel-container {
-		width: 80%;
-		max-width: 800px;
-		margin-left: auto;
-		margin-right: auto;
-	}
+	
 
 	.food-container {
-		width: 80%;
-		max-width: 400px;
+		width: 90%;
+		max-width: 500px;
 		margin-left: auto;
 		margin-right: auto;
 		display: flex;
@@ -383,36 +394,39 @@ h2{
 		margin-right: auto;
 	}
 
-	.move{
-		margin-left: auto;
-		margin-right: auto;
-		margin-top: 20px;
-	}
-
 	#myBtn {
-	    display: none; /* Hidden by default */
-	    position: fixed; /* Fixed/sticky position */
-	    bottom: 20px; /* Place the button at the bottom of the page */
-	    right: 20px; /* Place the button 30px from the right */
-	    z-index: 99; /* Make sure it does not overlap */
-	    border: none; /* Remove borders */
-	    outline: none; /* Remove outline */
-	    background-color: white; /* Set a background color */
-	    color: white; /* Text color */
-	    cursor: pointer; /* Add a mouse pointer on hover */
-	    padding: 15px; /* Some padding */
-	    border-radius: 10px; /* Rounded corners */
+	    display: none; 
+	    position: fixed; 
+	    bottom: 20px; 
+	    right: 20px; 
+	    z-index: 99; 
+	    border: none; 
+	    outline: none; 
+	    background-color: white; 
+	    color: white; 
+	    cursor: pointer; 
+	    padding: 15px; 
+	    border-radius: 10px; 
 	}
 
 	.button{
 		height: 50px;
 		width: 50px;
 	}
+
+	.flexy{
+		display: flex;
+		flex-direction: row;
+		height: 50px;
+		width: 150px;
+		margin: auto;
+	}
 	
 } 
 
 /*GROOT DESKTOP*/
 @media only screen and (min-width: 1950px) {
+	/*header*/
 	header{
 	display: flex;
 	height: 45px;
@@ -439,7 +453,8 @@ h2{
 		margin-right: 20px;
 		margin-top: 10px;
 	}
-	
+
+	/*totals*/
 	.total{
 		display: flex;
 		justify-content: center;
@@ -457,6 +472,7 @@ h2{
 		margin-right: 50px;
 	}
 
+	/*fuel*/
 	.fuel-container {
 		width: 80%;
 		max-width: 800px;
@@ -464,6 +480,7 @@ h2{
 		margin-right: auto;
 	}
 
+	/*food*/
 	.food-container {
 		width: 80%;
 		max-width: 400px;
@@ -481,10 +498,25 @@ h2{
 		margin-right: auto;
 	}
 
-	.move{
-		margin-left: auto;
-		margin-right: auto;
-		margin-top: 20px;
+	/*button*/
+	.button{
+		height: 30px;
+		width: 30px;
 	}
+
+	#myBtn {
+	    display: none; 
+	    position: fixed; 
+	    bottom: 20px; 
+	    right: 5px; 
+	    z-index: 99; 
+	    border: none; 
+	    outline: none; 
+	    background-color: white; 
+	    color: white; 
+	    cursor: pointer; 
+	    padding: 5px; 
+	    border-radius: 10px; 
+	} 
 } 
 

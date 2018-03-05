@@ -22,15 +22,15 @@
 			<img src="images/gasstation.png">
 			<p class= "move">54000 m3 per hour</p>
 			</div>
-			<!--eten-->
+			<!--foods-->
 			<div class="globalinfo">
 			<img src="images/cutlery.png">
-			<p class= "move">3100 pieces left</p>
+			<p class="move">3100 pieces left</p>
 			</div>
 			<!--distance-->
 			<div class="globalinfo">
 			<img src="images/distance.png">
-			<p class= "move">35000 km per hour</p>
+			<p class="move">35000 km per hour</p>
 			</div>
 		</div>
 		<!--Fuel-->
@@ -40,29 +40,36 @@
 		</div>
 		<h2 class="flex">Used today</h2>
 		<div class="fuel-container">
-			<canvas id= "usageFuelChart"></canvas>
+			<canvas id="usageFuelChart"></canvas>
 		</div>
 		<!--food information-->
 		<h2 class="flex">food</h2>
 		<div class="information">
-			<div class="bread">
-				<p class="text">Bread</p>
+			<div class="flexy">
+				<div class="bread">
+					<p class="text">Bread</p>
+				</div>
 			</div>
-			<div class="vegetables">
-				<p class="text">Vegetables</p>
+			<div class="flexy">
+				<div class="vegetables">
+					<p class="text">Vegetables</p>
+				</div>
 			</div>
-			<div class="meat">
-				<p class="text">Meat</p>
+			<div class="flexy">
+				<div class="meat">
+					<p class="text">Meat</p>
+				</div>
 			</div>
+			
 		</div>
 		<!--food charts-->
 		<div id="food" class="food-container">
-			<canvas id= "breadChart"></canvas>
-   			<canvas id= "vegetablesChart"></canvas>
-			<canvas id= "meatChart"></canvas>
+			<canvas id="breadChart"></canvas>
+   			<canvas id="vegetablesChart"></canvas>
+			<canvas id="meatChart"></canvas>
 		</div>
 		<div class="usage-container">
-			<canvas id= "usageFoodChart"></canvas>
+			<canvas id="usageFoodChart"></canvas>
 		</div>
 		<!--distance and time-->
 		<div class="fuel-container">
@@ -71,8 +78,8 @@
 			<h2 class="flex">Travelled distance</h2>
 			<canvas id="travelledChart"></canvas>
 		</div>
-		<button onclick="topFunction()" id="myBtn"><img class= "button" src="images/rocket.png"><p>Go up</p></button>
-		<script type="text/javascript" src= "scripts/charts.js" ></script>
+		<button onclick="topFunction()" id="myBtn"><img class="button" src="images/rocket.png"><p>Go up</p></button>
+		<script type="text/javascript" src="scripts/charts.js" ></script>
 	</main>
 	
 </body>
