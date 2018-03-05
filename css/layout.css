@@ -56,9 +56,9 @@ h2{
 }
 
 .move{
-		display: flex;
-		justify-content: center;
-		margin-top: 10px;
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
 }
 
 /*fuel*/
@@ -66,6 +66,7 @@ h2{
 	display: flex;
 	justify-content: center;
 }
+
 .fuel-container {
 	width: 80%;
 	max-width: 800px;
@@ -116,11 +117,19 @@ h2{
 }
 
 .usage-container {
-		width: 80%;
-		max-width: 800px;
-		margin-left: auto;
-		margin-right: auto;
-	}
+	width: 80%;
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*distance*/
+.distance-container{
+	width: 80%;
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 /*button*/
 .button{
@@ -145,7 +154,7 @@ h2{
 
 /*TABLET*/
 @media only screen and (min-width: 768px) and (max-width: 959px){
-	/*header*/
+/*header*/
 	.spaceX{
 		height: 37px;
 		width: 300px;
@@ -161,7 +170,7 @@ h2{
 		width: 30px;
 	}
 
-	/*totals*/
+/*totals*/
 	img{
 		margin-left: auto;
 		margin-right: auto;
@@ -195,7 +204,7 @@ h2{
 		margin-top: 10px;
 	}
 
-	/*fuel*/
+/*fuel*/
 	.flex{
 		display: flex;
 		justify-content: center;
@@ -208,7 +217,7 @@ h2{
 		margin-right: auto;
 	}
 
-	/*food*/	
+/*food*/	
 	.information{
 		display: flex;
 		flex-direction: column;
@@ -255,7 +264,15 @@ h2{
 		margin-right: auto;
 	}
 
-	/*button*/
+/*distance*/
+	.distance-container{
+		width: 80%;
+		max-width: 800px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+/*button*/
 	.button{
 		height: 30px;
 		width: 30px;
@@ -280,7 +297,7 @@ h2{
 
 /*DESKTOP*/
 @media only screen and (min-width: 1250px) and (max-width: 1950px){
-	/*header*/
+/*header*/
 	header{
 		display: flex;
 		height: 45px;
@@ -308,7 +325,7 @@ h2{
 		margin-top: 10px;
 	}
 
-	/*totals*/
+/*totals*/
 	img{
 		margin-left: auto;
 		margin-right: auto;
@@ -345,7 +362,7 @@ h2{
 		margin-top: 10px;
 	}
 
-	/*fuel*/
+/*fuel*/
 	.fuel-container {
 			width: 80%;
 			max-width: 800px;
@@ -353,11 +370,19 @@ h2{
 			margin-right: auto;
 	}
 
-	/*food*/
+/*food*/
 	.information{
 		display: flex;
 		flex-direction: row;
 		align-items: center;
+	}
+
+	.flexy{
+		display: flex;
+		flex-direction: row;
+		height: 50px;
+		width: 150px;
+		margin: auto;
 	}
 
 	.bread{
@@ -384,8 +409,6 @@ h2{
 		margin-left: 30px;
 	}
 
-	
-
 	.food-container {
 		width: 90%;
 		max-width: 500px;
@@ -403,6 +426,15 @@ h2{
 		margin-right: auto;
 	}
 
+/*distance*/
+	.distance-container{
+		width: 80%;
+		max-width: 800px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+/*button*/
 	#myBtn {
 	    display: none; 
 	    position: fixed; 
@@ -421,24 +453,15 @@ h2{
 	.button{
 		height: 50px;
 		width: 50px;
-	}
-
-	.flexy{
-		display: flex;
-		flex-direction: row;
-		height: 50px;
-		width: 150px;
-		margin: auto;
-	}
-	
+	}	
 } 
 
 /*GROOT DESKTOP*/
 @media only screen and (min-width: 1950px) {
-	/*header*/
+/*header*/
 	header{
-	display: flex;
-	height: 45px;
+		display: flex;
+		height: 45px;
 	}
 
 	.spaceX{
@@ -463,25 +486,44 @@ h2{
 		margin-top: 10px;
 	}
 
-	/*totals*/
+/*totals*/
+	img{
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	h2{
+		margin-top: 50px;
+	}
+
 	.total{
 		display: flex;
 		justify-content: center;
 		flex-direction: row;
 	}
 
-	img{
-	margin-left: auto;
-	margin-right: auto;
-}
+	.total > div >img{
+			height: 100px;
+			width: 100px;
+	}
 
-	main > div > div{
+	.globalinfo{
 		height: 200px;
 		width: 310px;
 		margin-right: 50px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin-top: 20px;
 	}
 
-	/*fuel*/
+	.move{
+		display: flex;
+		justify-content: center;
+		margin-top: 10px;
+	}
+
+/*fuel*/
 	.fuel-container {
 		width: 80%;
 		max-width: 800px;
@@ -489,10 +531,48 @@ h2{
 		margin-right: auto;
 	}
 
-	/*food*/
+/*food*/
+	.information{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+	}
+
+	.flexy{
+		display: flex;
+		flex-direction: row;
+		height: 50px;
+		width: 150px;
+		margin: auto;
+	}
+
+	.bread{
+		height: 20px;
+		width: 20px;
+		border-radius: 20px;
+		margin-top: 20px;
+	}
+
+	.vegetables{
+		height: 20px;
+		width: 20px;
+		border-radius: 20px;
+		margin-top: 20px;
+	}
+
+	.meat{
+		height: 20px;
+		width: 20px;
+		border-radius: 20px;
+	}
+
+	.text{
+		margin-left: 30px;
+	}
+
 	.food-container {
 		width: 80%;
-		max-width: 400px;
+		max-width: 700px;
 		margin-left: auto;
 		margin-right: auto;
 		display: flex;
@@ -507,7 +587,15 @@ h2{
 		margin-right: auto;
 	}
 
-	/*button*/
+/*distance*/
+	.distance-container{
+		width: 80%;
+		max-width: 800px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+/*button*/
 	.button{
 		height: 30px;
 		width: 30px;
