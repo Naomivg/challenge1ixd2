@@ -314,10 +314,19 @@ h2{
 		margin-right: auto;
 	}
 
+	h2{
+		margin-top: 50px;
+	}
+
 	.total{
 		display: flex;
 		justify-content: center;
 		flex-direction: row;
+	}
+
+	.total > div >img{
+		height: 100px;
+		width: 100px;
 	}
 
 	.globalinfo{
