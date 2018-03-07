@@ -148,6 +148,7 @@ var veggiesChart = new Chart(ctx, {
     }
 });
 
+
 //MEAT
 var ctx = document.getElementById('meatChart').getContext('2d');
 var animalchart = new Chart(ctx, {
@@ -195,12 +196,6 @@ var usedFoodChart = new Chart(ctx, {
     },
 
     options: {
-        title:{
-            display: true,
-            text: 'Used food today',
-            fontSize: 15,
-            fontColor: '#ffffff',
-        },
         legend: {
             display: false,
         },
