@@ -1,5 +1,50 @@
 @import url('layout.css');
+.needle {
+    width: 5px;
+    height: 100px;
+    background: #726DFF;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    display: inline-block;
+    left: 57px;
+    top: 10px;
+    -webkit-animation:move 5s infinite;
+    transform:rotate(0deg);
+    transform-origin:bottom;
+    margin-top: 450%
+}
 
+.container{
+	height: 20px;
+	width: 20px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.info{
+	display: flex;
+	justify-content: center;
+}
+
+@-webkit-keyframes move {
+  0% {
+    transform: rotate(90deg);
+  }
+  20% {
+    transform: rotate(50deg);
+  }
+  50% {
+    transform: rotate(20deg);
+  }
+  70% {
+    transform: rotate(-30deg);
+  }
+  100% {
+    transform: rotate(-90deg);
+  }
+}
 /*PHONE*/
 body{
 	background-color: #2B2960;
@@ -61,6 +106,52 @@ button>p{
 	.move{
 		font-size: 15px;
 	}
+
+	.needle {
+    width: 5px;
+    height: 150px;
+    background: #726DFF;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    display: inline-block;
+    left: 57px;
+    top: 10px;
+    -webkit-animation:move 5s infinite;
+    transform:rotate(0deg);
+    transform-origin:bottom;
+    margin-top: 1000%
+}
+
+.container{
+	height: 20px;
+	width: 20px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.info{
+	display: flex;
+	justify-content: center;
+}
+
+@-webkit-keyframes move {
+  0% {
+    transform: rotate(90deg);
+  }
+  20% {
+    transform: rotate(50deg);
+  }
+  50% {
+    transform: rotate(20deg);
+  }
+  70% {
+    transform: rotate(-30deg);
+  }
+  100% {
+    transform: rotate(-90deg);
+  }
+
 } 
 
 /*DESKTOP*/
@@ -72,6 +163,51 @@ button>p{
 	.move{
 		font-size: 20px;
 	}
+
+	.needle {
+    width: 5px;
+    height: 200px;
+    background: #726DFF;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    display: inline-block;
+    left: 57px;
+    top: 10px;
+    -webkit-animation:move 5s infinite;
+    transform:rotate(0deg);
+    transform-origin:bottom;
+    margin-top: 1000%
+}
+
+.container{
+	height: 20px;
+	width: 20px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.info{
+	display: flex;
+	justify-content: center;
+}
+
+@-webkit-keyframes move {
+  0% {
+    transform: rotate(90deg);
+  }
+  20% {
+    transform: rotate(50deg);
+  }
+  50% {
+    transform: rotate(20deg);
+  }
+  70% {
+    transform: rotate(-30deg);
+  }
+  100% {
+    transform: rotate(-90deg);
+  }
 } 
 
 /*GROOT DESKTOP*/
@@ -83,4 +219,49 @@ button>p{
 	.move{
 		font-size: 20px;
 	}
+
+	.needle {
+    width: 5px;
+    height: 100px;
+    background: #726DFF;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    display: inline-block;
+    left: 57px;
+    top: 10px;
+    -webkit-animation:move 5s infinite;
+    transform:rotate(0deg);
+    transform-origin:bottom;
+    margin-top: 1500%
+}
+
+.container{
+	height: 20px;
+	width: 20px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.info{
+	display: flex;
+	justify-content: center;
+}
+
+@-webkit-keyframes move {
+  0% {
+    transform: rotate(90deg);
+  }
+  20% {
+    transform: rotate(50deg);
+  }
+  50% {
+    transform: rotate(20deg);
+  }
+  70% {
+    transform: rotate(-30deg);
+  }
+  100% {
+    transform: rotate(-90deg);
+  }
 } 
