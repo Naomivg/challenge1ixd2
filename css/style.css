@@ -98,7 +98,7 @@ button>p{
 }
 
 /*TABLET*/
-@media only screen and (min-width: 768px) and (max-width: 959px){
+@media only screen and (min-width: 768px) and (max-width: 1250px){
 	p{
 		font-size: 15px;
 	} 
@@ -166,7 +166,7 @@ button>p{
 
 	.needle {
     width: 5px;
-    height: 200px;
+    height: 250px;
     background: #726DFF;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -178,7 +178,7 @@ button>p{
     -webkit-animation:move 5s infinite;
     transform:rotate(0deg);
     transform-origin:bottom;
-    margin-top: 1000%
+    margin-top: 1500%;
 }
 
 .container{
@@ -234,7 +234,7 @@ button>p{
     -webkit-animation:move 5s infinite;
     transform:rotate(0deg);
     transform-origin:bottom;
-    margin-top: 1500%
+    margin-top: 2000%;
 }
 
 .container{
