@@ -1,11 +1,6 @@
 @import url('layout.css');
 
 /*PHONE*/
-*{
-	font-family: "Mashine";
-	margin: 0px;
-}
-
 body{
 	background-color: #2B2960;
 	color: white;
@@ -21,6 +16,11 @@ h2{
 
 p{
 	font-size: 15px;
+}
+
+*{
+	font-family: "Mashine";
+	margin: 0px;
 }
 
 .globalinfo{
