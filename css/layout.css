@@ -142,8 +142,8 @@ h2{
 
 /*button*/
 .button{
-	height: 30px;
-	width: 30px;
+	height: 50px;
+	width: 50px;
 }
 
 #myBtn {
@@ -303,8 +303,8 @@ h2{
 
 /*button*/
 	.button{
-		height: 30px;
-		width: 30px;
+		height: 50px;
+		width: 50px;
 	}
 
 	#myBtn {
@@ -481,9 +481,9 @@ h2{
 	}
 
 	.button{
-		height: 50px;
-		width: 50px;
-	}	
+	height: 30px;
+	width: 30px;
+}	
 } 
 
 /*GROOT DESKTOP*/

@@ -1,4 +1,8 @@
 @import url('layout.css');
+*{
+	font-family: "Mashine";
+	margin: 0;
+}
 .needle {
     width: 5px;
     height: 100px;
