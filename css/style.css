@@ -47,7 +47,7 @@
     transform: rotate(-30deg);
   }
   100% {
-    transform: rotate(-90deg);
+    transform: rotate(90deg);
   }
 }
 /*PHONE*/
@@ -154,7 +154,7 @@ button>p{
     transform: rotate(-30deg);
   }
   100% {
-    transform: rotate(-90deg);
+    transform: rotate(90deg);
   }
 } 
 }
@@ -212,7 +212,7 @@ button>p{
 	    transform: rotate(-30deg);
 	  }
 	  100% {
-	    transform: rotate(-90deg);
+	    transform: rotate(90deg);
 	  }
 	} 
 }
@@ -269,7 +269,7 @@ button>p{
 	    transform: rotate(-30deg);
 	  }
 	  100% {
-	    transform: rotate(-90deg);
+	    transform: rotate(90deg);
 	  }
 	}
 } 
